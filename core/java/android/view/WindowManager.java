@@ -809,6 +809,7 @@ public interface WindowManager extends ViewManager {
                 case TYPE_SYSTEM_ERROR:
                 case TYPE_SYSTEM_OVERLAY:
                 case TYPE_APPLICATION_OVERLAY:
+                case TYPE_SIGNBOARD_NORMAL:
                     return true;
             }
             return false;
