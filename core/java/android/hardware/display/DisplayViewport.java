@@ -69,12 +69,12 @@ public final class DisplayViewport {
         int signBoardHeight = 160;
         
         if (displayId == Display.DEFAULT_DISPLAY) {
-            if (orientation == Surface.ROTATION_90) {
-                physicalFrame.left += signBoardHeight;
-                physicalFrame.right += signBoardHeight;
-            } else if (orientation == Surface.ROTATION_0) {
-                physicalFrame.top += signBoardHeight;
-                physicalFrame.bottom += signBoardHeight;
+            if (orientation == Surface.ROTATION_270) {
+                physicalFrame.left -= 2 * signBoardHeight;
+                physicalFrame.right -= 2 * signBoardHeight;
+            } else if (orientation == Surface.ROTATION_180) {
+                physicalFrame.top -= 2 * signBoardHeight;
+                physicalFrame.bottom -= 2 * signBoardHeight;
             }
         }
         
