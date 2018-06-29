@@ -862,6 +862,7 @@ public interface WindowManagerPolicy {
             case TYPE_NAVIGATION_BAR:
                 // the navigation bar, if available, shows atop most things
                 return  23;
+            case TYPE_SIGNBOARD_NORMAL:
             case TYPE_NAVIGATION_BAR_PANEL:
                 // some panels (e.g. search) need to show on top of the navigation bar
                 return  24;
@@ -889,7 +890,6 @@ public interface WindowManagerPolicy {
                 return  31;
             case TYPE_BOOT_PROGRESS:
                 return  32;
-            case TYPE_SIGNBOARD_NORMAL:
             case TYPE_POINTER:
                 // the (mouse) pointer layer
                 return  33;
