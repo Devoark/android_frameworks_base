@@ -4848,7 +4848,7 @@ public class WindowManagerService extends IWindowManager.Stub
                 mAnimator.addDisplayLocked(displayId);
                 displayContent.initializeDisplayBaseInfo();
                 
-                displayContent.mBaseDisplayHeight += 160;
+//                displayContent.mBaseDisplayHeight += 160;
             }
         }
     }
