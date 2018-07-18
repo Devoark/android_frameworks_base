@@ -163,7 +163,7 @@
   <!-- Navigation bar Tile -->
   <string name="quick_settings_navigation_bar">Thanh điều hướng</string>
   <string name="quick_settings_smartbar">Thanh thông minh</string>
-  <string name="quick_settings_fling">Fling</string>
+  <string name="quick_settings_fling">Mở rộng</string>
   <string name="quick_settings_navigation_default">Gốc</string>
   <string name="quick_settings_navigation_disabled">Đã tắt</string>
   <string name="omnijaws_service_error">Lỗi</string>
@@ -187,7 +187,7 @@
   <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
   <!-- Pie controls -->
   <string name="pie_state_name">Điều hướng Pie</string>
-  <string name="pie_state_summary">Sử dụng điều khiển pie khi ở chế độ nhập vai</string>
+  <string name="pie_state_summary">Sử dụng điều khiển pie khi ở chế độ toàn màn hình</string>
   <string name="pie_battery_level">"MỨC PIN "</string>
   <string name="quick_settings_pie">Pie</string>
   <string name="recents_custom_android_n">XÓA TẤT CẢ</string>
@@ -201,5 +201,8 @@
   <!-- Recents free RAM -->
   <string name="recents_free_ram">RAM trống: %1$d MB</string>
   <!-- SmartPixels QS Tile -->
+  <string name="quick_settings_smart_pixels">Điểm ảnh thông minh</string>
+  <string name="quick_settings_smart_pixels_on_power_save">Tự động cho phép Điểm ảnh thông minh</string>
   <!-- Accessibility label for button to open running apps prefscreen [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_running_services">Mở màn hình Dịch vụ đang chạy.</string>
 </resources>
