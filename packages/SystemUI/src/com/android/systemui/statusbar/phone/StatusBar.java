@@ -311,6 +311,7 @@ import java.util.Stack;
 
 import lineageos.hardware.LiveDisplayManager;
 import lineageos.providers.LineageSettings;
+import lineageos.style.StyleInterface;
 
 public class StatusBar extends SystemUI implements DemoMode,
         DragDownHelper.DragDownCallback, ActivityStarter, OnUnlockMethodChangedListener,
@@ -3375,6 +3376,12 @@ public class StatusBar extends SystemUI implements DemoMode,
             Log.w(TAG, e.getMessage());
         }
         return false;
+    }
+
+    private String getDarkOverlay() {
+        return LineageSettings.System.getString(mContext.getContentResolver(),
+                LineageSettings.System.BERRY_DARK_OVERLAY,
+                StyleInterface.OVERLAY_DARK_DEFAULT);
     }
 
     @Nullable
