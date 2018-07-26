@@ -7244,7 +7244,18 @@ public final class Settings {
         /**
          * Fling pulse music visualizer
          *
-         * @hide
+         *
+         */
+        public static final String FLING_PULSE_ENABLED = "fling_pulse_enabled";
+        
+        /**
+         * Contains a list of enabled SignBoard components
+         */
+        public static final String ENABLED_SIGNBOARD_COMPONENTS = "enabled_signboard_components";
+
+        /**
+         * @deprecated Use {@link android.provider.Settings.Global#DEVELOPMENT_SETTINGS_ENABLED}
+         * instead
          */
         public static final String FLING_PULSE_ENABLED = "fling_pulse_enabled";
 
