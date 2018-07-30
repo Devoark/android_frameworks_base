@@ -4049,6 +4049,8 @@ public abstract class Context {
      */
     public static final String TIME_ZONE_RULES_MANAGER_SERVICE = "timezone";
 
+    public static final String SIGNBOARD_SERVICE = "signboardservice";
+
     /**
      * Use with {@link #getSystemService} to retrieve a
      * {@link android.os.PocketManager} for accessing and listening to device pocket state.

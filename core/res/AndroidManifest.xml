@@ -554,6 +554,8 @@
     <protected-broadcast android:name="projekt.substratum.APP_CRASHED" />
     <protected-broadcast android:name="com.android.systemui.action.RESTART_THEME" />
     <protected-broadcast android:name="com.android.systemui.action.REFRESH_SOUND" />
+    <protected-broadcast android:name="com.android.signboard.action.UPDATE_QUICKTOGGLES" />
+    <protected-broadcast android:name="com.android.signboard.action.TOGGLE_QT" />
 
     <!-- ====================================================================== -->
     <!--                          RUNTIME PERMISSIONS                           -->
@@ -3575,6 +3577,9 @@
         android:description="@string/permdesc_toggleNavigationEditor"
         android:protectionLevel="signatureOrSystem" />
  
+    <permission android:name="android.permission.MANAGE_SIGNBOARD"
+        android:protectionLevel="signature|development" />
+
     <application android:process="system"
                  android:persistent="true"
                  android:hasCode="false"
