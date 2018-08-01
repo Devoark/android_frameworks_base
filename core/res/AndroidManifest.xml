@@ -556,6 +556,8 @@
     <protected-broadcast android:name="com.android.systemui.action.REFRESH_SOUND" />
     <protected-broadcast android:name="com.android.signboard.action.UPDATE_QUICKTOGGLES" />
     <protected-broadcast android:name="com.android.signboard.action.TOGGLE_QT" />
+    <protected-broadcast android:name="com.android.signboard.action.UPDATE_MUSIC" />
+    <protected-broadcast android:name="com.android.signboard.action.MUSIC_CONTROL" />
 
     <!-- ====================================================================== -->
     <!--                          RUNTIME PERMISSIONS                           -->
