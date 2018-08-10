@@ -3378,12 +3378,6 @@ public class StatusBar extends SystemUI implements DemoMode,
         return false;
     }
 
-    private String getDarkOverlay() {
-        return LineageSettings.System.getString(mContext.getContentResolver(),
-                LineageSettings.System.BERRY_DARK_OVERLAY,
-                StyleInterface.OVERLAY_DARK_DEFAULT);
-    }
-
     @Nullable
     public View getAmbientIndicationContainer() {
         return mAmbientIndicationContainer;

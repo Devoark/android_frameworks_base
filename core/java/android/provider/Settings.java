@@ -7271,12 +7271,6 @@ public final class Settings {
         public static final String ENABLE_SIGNBOARD_SCREENSHOT = "enable_signboard_screenshot";
 
         /**
-         * @deprecated Use {@link android.provider.Settings.Global#DEVELOPMENT_SETTINGS_ENABLED}
-         * instead
-         */
-        public static final String FLING_PULSE_ENABLED = "fling_pulse_enabled";
-
-        /**
          * Fling pulse music visualizer color
          *
          * @hide
